@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Outfit;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -19,6 +20,23 @@ a{
 .app{
   width: 80%;
   margin: auto;
+}
+
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: tomato; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
 }
 
 @keyframes fadeIn {

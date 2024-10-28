@@ -15,7 +15,7 @@
   max-width: 50%;
   bottom: 10%;
   left: 6vw;
-  animation: fadeIn 3s;
+  animation: fadeIn 2s;
 }
 
 .header-contents h2 {
@@ -38,4 +38,28 @@
   font-size: max(1vw, 13px);
   border-radius: 50px;
   cursor: pointer;
+}
+
+/* Responsiveness code */
+
+@media (max-width: 1050px) {
+  .header-contents {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-contents {
+    max-width: 65%;
+  }
+  .header-contents h2 {
+    font-size: 25px;
+  }
+  .header-contents p {
+    display: none;
+  }
+  .header-contents button {
+    padding: 2vw 4vw;
+    margin-top: 3px;
+  }
 }
