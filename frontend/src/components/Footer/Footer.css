@@ -20,8 +20,13 @@
 }
 
 .footer-content-left p {
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.footer-content-left .footer-logo {
+  font-size: 40px;
+  color: tomato;
 }
 
 .footer-content-left,

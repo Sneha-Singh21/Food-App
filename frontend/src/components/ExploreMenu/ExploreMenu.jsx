@@ -7,9 +7,9 @@ const ExploreMenu = ({ category, setCategory }) => {
     <div className="explore-menu" id="explore-menu">
       <h1>Explore our menu</h1>
       <p className="explore-menu-text">
-        Choose from a diverse menu featuring a delectable array of dishes. Our
-        mission is to satisfy your cravings and elevate your dinning experience,
-        one delicious meal at a time.
+        Discover a variety of mouthwatering dishes, crafted
+        to delight your taste buds and elevate your dining experience with
+        UrbanBite's finest offerings.
       </p>
       <div className="explore-menu-list">
         {menu_list.map((item, index) => {

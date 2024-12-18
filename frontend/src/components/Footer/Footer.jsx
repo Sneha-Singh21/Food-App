@@ -7,11 +7,11 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
+          <h1 className="footer-logo">UrbanBites.</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typecasting
-            industry. When an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
+            Taste the joy of delicious moments with UrbanBites. Bringing flavors
+            that delight and convenience you deserve, right to your door.
+            Satisfaction, guaranteed.
           </p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />

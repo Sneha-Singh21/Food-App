@@ -5,9 +5,11 @@
   align-items: center;
 }
 
-.navbar .logo {
-  width: 150px;
+.navbar .nav-logo{
+  font-size: 40px;
+  color: tomato;
 }
+
 
 .navbar-menu {
   display: flex;
@@ -129,8 +131,8 @@
 }
 
 @media (max-width: 900px) {
-  .navbar .logo {
-    width: 120px;
+  .navbar .nav-logo {
+    font-size: 25px;
   }
   .navbar-menu {
     gap: 15px;
